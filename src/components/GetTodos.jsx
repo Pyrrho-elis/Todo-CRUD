@@ -3,7 +3,7 @@ import React, {useState, useEffect, useRef} from "react"
 import { collection, onSnapshot, addDoc, deleteDoc, doc, query, where, orderBy, serverTimestamp} from "firebase/firestore"
 import './comStyle.css'
 import { useAuth } from "../firebase"
-import { BsFillTrashFill } from 'react-icons/bs'
+import { BsFillTrashFill } from '/react-icons/bs'
 
 
 export default function GetTodos() {
